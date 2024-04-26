@@ -11,3 +11,6 @@
 * `space f m` => format
 * `space t h` => temalar
 * `space c h` => nvchad kisayollar menusu
+
+# Screensaver
+* swayidle & swaylock
