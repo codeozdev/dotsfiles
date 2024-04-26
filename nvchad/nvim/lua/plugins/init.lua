@@ -34,6 +34,7 @@ return {
         "prettier",
         "tailwindcss-language-server",
         "typescript-language-server",
+        "eslint_d",
       },
     },
   },
@@ -56,3 +57,5 @@ return {
     },
   },
 }
+
+-- eslint_d daha hafif ve daha hizli oldugu soyleniyor
