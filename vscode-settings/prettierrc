@@ -1,0 +1,11 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "bracketSameLine": true,
+  "printWidth": 100
+}
+
+
+https://tailwindcss.com/blog/automatic-class-sorting-with-prettier
