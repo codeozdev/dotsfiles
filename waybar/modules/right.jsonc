@@ -1,0 +1,59 @@
+{
+  "hyprland/language": {
+    "format": {},
+    "format-en": "🇬🇧",
+    "format-tr": "🇹🇷"
+  },
+  "memory": {
+    "interval": 5,
+    "format": "  {used:0.2f} / {total:0.0f} GB",
+    "on-click": "kitty btop"
+  },
+  "cpu": {
+    "interval": 3,
+    "format": "  {max_frequency}GHz | {usage}%",
+    "max-length": 18,
+    "min-length": 18
+  },
+  "network": {
+    "format-ethernet": " {bandwidthDownBytes} |  {bandwidthUpBytes}",
+    "interval": 5,
+    "format-disconnected": "⚠",
+    "min-length": 24,
+    "max-length": 24
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "󰖁",
+    "tooltip": false,
+    "on-click": "pavucontrol",
+    "max-volume": 150,
+    "scroll-step": 3,
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", ""]
+    }
+  },
+  "tray": {
+    "icon-size": 15,
+    "spacing": 6
+  },
+  "custom/exit": {
+    "format": "⏻",
+    "on-click": "wlogout",
+    "max-length": 3,
+    "min-length": 3
+  }
+}
+/* 
+
+
+//https://github.com/ErikReider/SwayAudioIdleInhibit?tab=readme-ov-file
+ekran korucucu video izlerken devreye giriyordu bu paket ses oldukca devreye girmesini engelliyor
+
+*/

@@ -1,0 +1,27 @@
+{
+  "layer": "top",
+  "margin-left": 10,
+  "margin-bottom": 0,
+  "margin-right": 10,
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+  "modules-center": [
+    "clock#date",
+    "custom/weather"
+  ],
+  "modules-right": [
+    "hyprland/language",
+    "memory",
+    "cpu",
+    "network",
+    "pulseaudio",
+    "tray",
+    "custom/exit"
+  ],
+  "include": [
+    "~/.config/waybar/modules/left.jsonc",
+    "~/.config/waybar/modules/center.jsonc",
+    "~/.config/waybar/modules/right.jsonc"
+  ]
+}
