@@ -5,8 +5,7 @@
     "today-format": "<b>{}</b>"
   },
   "clock#date": {
-    "format": "{:%H:%M %p %A %e %B}", // Icon: calendar-alt
-    //"format": "{:%I:%M %p  %A %b %d}",
+    "format": "{:%H:%M %p %A %e %B}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "today-format": "<b>{}</b>"
   },
@@ -15,7 +14,6 @@
     "restart-interval": 300,
     "return-type": "json",
     "on-click": "xdg-open https://weather.com/en-IN/weather/today/l/$(location_id)"
-    // "format-alt": "{alt}",
   }
 }
 

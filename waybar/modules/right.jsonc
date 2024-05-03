@@ -5,7 +5,7 @@
     "format-tr": "🇹🇷"
   },
   "memory": {
-    "interval": 5,
+    "interval": 3,
     "format": "  {used:0.2f} / {total:0.0f} GB",
     "on-click": "kitty btop"
   },
