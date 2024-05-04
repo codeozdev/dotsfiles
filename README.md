@@ -14,3 +14,7 @@
 
 # Screensaver
 * swayidle & swaylock
+
+---
+
+
