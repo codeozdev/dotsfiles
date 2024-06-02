@@ -17,4 +17,4 @@
 
 ---
 
-
+smile -> aur emoji paketi
