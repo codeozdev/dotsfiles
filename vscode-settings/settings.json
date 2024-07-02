@@ -1,8 +1,8 @@
 {
   // PRETTIER
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-  "prettier.semi": false,
+  "prettier.singleQuote": false, // tek tirnak kullanir
+  "prettier.jsxSingleQuote": false, // jsx dosyalarinda tek tirnak kullanir
+  "prettier.semi": true, // sona noktali virgul koyar
   "prettier.bracketSameLine": true,
   "prettier.printWidth": 100,
   // TYPESCRIPT
