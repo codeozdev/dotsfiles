@@ -1,0 +1,1 @@
+![Alternatif Metin](waybar.png)

@@ -1,0 +1,1 @@
+nvim .config/hypr/hyprland.conf   (hyprland config dosyasi burada bulunur)

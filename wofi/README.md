@@ -1,0 +1,1 @@
+Uygulama baslaticisi alternatif olarak `Rofi` var
