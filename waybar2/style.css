@@ -77,6 +77,7 @@ tooltip label {
 #custom-media,
 #pulseaudio,
 #custom-backlight,
+#custom-weather,
 #custom-power {
   opacity: 1;
   color: @module-fg;
@@ -341,4 +342,10 @@ tooltip label {
   background: @hover-bg;
   text-shadow: none;
   box-shadow: none;
+}
+
+#custom-weather {
+  color: @weather;
+  background: @main-bg;
+  padding-left: 10px;
 }

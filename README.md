@@ -23,3 +23,5 @@ smile -> aur emoji paketi
 # XFCE4
 - xcolor -> `xcolor -s` color picker
 - emote -> emoji picker
+
+

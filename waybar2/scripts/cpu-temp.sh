@@ -55,7 +55,7 @@ else
   text_output="${thermo_icon} ${temp}°C"
 fi
 
-tooltip="Temperature: ${temp_f}°F\nClock Speed: ${cpu_frequency}"
+tooltip="Temperature: ${temp}°C\nClock Speed: ${cpu_frequency}"
 
 # Module and tooltip
 echo "{\"text\": \"$text_output\", \"tooltip\": \"$tooltip\"}"
