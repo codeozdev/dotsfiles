@@ -5,18 +5,16 @@
   "prettier.semi": true, // sona noktali virgul koyar
   "prettier.bracketSameLine": true,
   "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
   // TYPESCRIPT
   "typescript.inlayHints.variableTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.autoClosingTags": true,
-  // EDITOR
-  "editor.fontFamily": "JetBrainsMono Nerd Font",
   "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"], // importlari duzenler ve hatalari duzeltir
-  "editor.linkedEditing": true,
-  "editor.fontLigatures": true,
+
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -49,5 +47,40 @@
   },
   "files.associations": {
     "*.css": "tailwindcss" // css dosyalarinda tailwindcss kullan
-  }
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "editor.formatOnSave": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 30, // satir araligi
+  "terminal.integrated.fontSize": 14,
+  "editor.cursorBlinking": "solid", // cursorun hareketi
+  "editor.cursorWidth": 3, // cursorun genisligi
+  "editor.linkedEditing": true,
+  "editor.autoClosingBrackets": "always", // parantezleri otomatik kapatir
+  "editor.autoClosingQuotes": "always", // tirnaklari otomatik kapatir
+
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "editor.mouseWheelZoom": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "window.restoreWindows": "none",
+  "workbench.colorTheme": "GitHub Dark Dimmed"
 }
