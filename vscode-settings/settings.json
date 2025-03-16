@@ -1,20 +1,17 @@
 {
-  // PRETTIER
-  "prettier.singleQuote": false, // tek tirnak kullanir
-  "prettier.jsxSingleQuote": false, // jsx dosyalarinda tek tirnak kullanir
-  "prettier.semi": true, // sona noktali virgul koyar
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.semi": true,
   "prettier.bracketSameLine": true,
   "prettier.printWidth": 100,
   "prettier.tabWidth": 2,
-  // TYPESCRIPT
   "typescript.inlayHints.variableTypes.enabled": true,
-  // "typescript.inlayHints.parameterNames.enabled": "all",
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.autoClosingTags": true,
-  "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"], // importlari duzenler ve hatalari duzeltir
-
+  "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"],
+  "editor.detectIndentation": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -31,7 +28,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "reactSnippets.settings.importReactOnTop": false,
-
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -46,31 +42,32 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
-    "*.css": "tailwindcss" // css dosyalarinda tailwindcss kullan
+    "*.css": "tailwindcss"
   },
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "diffEditor.ignoreTrimWhitespace": true
   },
   "editor.formatOnSave": true,
   "prisma.showPrismaDataPlatformNotification": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
-  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.iconTheme": "vscode-icons",
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.fontSize": 14,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrainsMono NF ExtraBold",
   "editor.fontLigatures": true,
-  "editor.lineHeight": 30, // satir araligi
-  "terminal.integrated.fontSize": 14,
-  "editor.cursorBlinking": "solid", // cursorun hareketi
-  "editor.cursorWidth": 3, // cursorun genisligi
+  "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
+  "terminal.integrated.fontSize": 10,
+  "editor.lineHeight": 1.5,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorWidth": 3,
   "editor.linkedEditing": true,
-  "editor.autoClosingBrackets": "always", // parantezleri otomatik kapatir
-  "editor.autoClosingQuotes": "always", // tirnaklari otomatik kapatir
-
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -82,5 +79,12 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "window.restoreWindows": "none",
-  "workbench.colorTheme": "GitHub Dark Dimmed"
+  "workbench.colorTheme": "Default Material Dark Theme",
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+  "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
+  "explorer.confirmDelete": false,
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  }
 }
