@@ -3,7 +3,7 @@
   "prettier.jsxSingleQuote": false,
   "prettier.semi": true,
   "prettier.bracketSameLine": true,
-  "prettier.printWidth": 100,
+  "prettier.printWidth": 80,
   "prettier.tabWidth": 2,
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
@@ -64,12 +64,37 @@
   "editor.autoClosingQuotes": "always",
   "editor.mouseWheelZoom": true,
   "window.restoreWindows": "none",
-  "workbench.colorTheme": "Default Material Dark Theme",
-  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
   "cursor.cpp.disabledLanguages": ["plaintext", "scminput"],
   "explorer.confirmDelete": false,
   "tailwindCSS.includeLanguages": {
     "typescript": "javascript",
     "typescriptreact": "javascript"
-  }
+  },
+  "keybindings": [
+    {
+      "key": "alt+f1",
+      "command": "workbench.files.action.showActiveFileInExplorer"
+    }
+  ],
+  // Fonksiyon yazarken parametre ipuçlarını gösteren popup'ı açar
+  "editor.parameterHints.enabled": true,
+  // Satır sonlarındaki gereksiz boşlukları otomatik siler
+  "files.trimTrailingWhitespace": true,
+  // Dosya sonuna otomatik boş satır ekler (git için önemli)
+  "files.insertFinalNewline": true,
+  // Sağ taraftaki küçük kod haritasını acar
+  "editor.minimap.enabled": true,
+  // Eşleşen parantezleri renklendirir, kod okunabilirliğini artırır
+  "editor.bracketPairColorization.enabled": true,
+  // Aktif satırı belirginleştirir
+  "editor.renderLineHighlight": "all",
+  // 100 karakteri geçen satırları otomatik alt satıra alır
+  "editor.wordWrapColumn": 100,
+  // Tab tuşu yerine boşluk karakteri kullanır
+  "editor.insertSpaces": true,
+  // Terminal penceresinde kaç satır geçmiş tutulacağını belirler
+  "terminal.integrated.scrollback": 5000,
+  // JavaScript ve TypeScript'te otomatik import önerilerini açar
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true
 }
