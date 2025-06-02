@@ -50,17 +50,11 @@
     "diffEditor.ignoreTrimWhitespace": true
   },
   "editor.formatOnSave": true,
-  "prisma.showPrismaDataPlatformNotification": false,
   "git.enableSmartCommit": true,
   "git.autofetch": true,
-  "workbench.iconTheme": "vscode-icons",
-  "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+
   "editor.fontSize": 14,
-  "editor.fontFamily": "JetBrainsMono NF ExtraBold",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontFamily": "MesloLGL Nerd Font",
   "terminal.integrated.fontSize": 10,
   "editor.lineHeight": 1.5,
   "editor.cursorBlinking": "solid",
@@ -68,16 +62,7 @@
   "editor.linkedEditing": true,
   "editor.autoClosingBrackets": "always",
   "editor.autoClosingQuotes": "always",
-  "github.copilot.enable": {
-    "*": true,
-    "plaintext": false,
-    "markdown": true,
-    "scminput": false
-  },
   "editor.mouseWheelZoom": true,
-  "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp"
-  },
   "window.restoreWindows": "none",
   "workbench.colorTheme": "Default Material Dark Theme",
   "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
